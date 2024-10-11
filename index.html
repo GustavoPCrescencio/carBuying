@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Carros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form" id="form">
+        <div class="carros">
+            <label for="">Carros</label>
+            <select id="valorCarro" name="carros" id="">
+                <option value="Fiat Uno" id="">Fiat Uno</option>
+                <option value="VW Gol" id="">VW Gol</option>
+                <option value="Ford KA" id="">Ford KA</option>
+            </select>
+        </div>
+        <div class="parcelas">
+            <label for="">Parcelas</label>
+            <select name="valorParcela" id="valorParcela">
+                <option value="0x" id="0x">à vista</option>
+                <option value="1x" id="1x">1x</option>
+                <option value="2x" id="2x">2x</option>
+                <option value="3x" id="3x">3x</option>
+                <option value="4x" id="4x">4x</option>
+                <option value="5x" id="5x">5x</option>
+                <option value="6x" id="6x">6x</option>
+                <option value="7x" id="7x">7x</option>
+                <option value="8x" id="8x">8x</option>
+                <option value="9x" id="9x">9x</option>
+                <option value="10x" id="10x">10x</option>
+                <option value="11x" id="11x">11x</option>
+                <option value="12x" id="12x">12x</option>
+            </select> 
+        </div>
+        <div class="comprar">
+            <button class="comprar" id="comprar" onclick="comprar()">comprar</button>
+        </div>
+    </div>
+    
+    <div class="container" id="container">
+        <div id="nomeCarro"></div>
+        <div id="parcelas"></div>
+        <div id="valorTotal"></div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
